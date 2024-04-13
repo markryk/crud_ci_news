@@ -10,7 +10,7 @@
         transition: background-color 300ms ease, color 300ms ease;
     }
     *:focus {
-        background-color: rgba(221, 72, 20, .2);
+        /*background-color: rgba(221, 72, 20, .2);*/
         outline: none;
     }
     html, body {
@@ -58,7 +58,7 @@
     }
     header li.menu-item a:hover,
     header li.menu-item a:focus {
-        background-color: rgba(221, 72, 20, .2);
+        /*background-color: rgba(221, 72, 20, .2);*/
         color: rgba(221, 72, 20, 1);
     }
     header .logo {
@@ -73,7 +73,7 @@
         font-weight: bold;
     }
     header .menu-toggle button {
-        background-color: rgba(221, 72, 20, .6);
+        /*background-color: rgba(221, 72, 20, .6);*/
         border: none;
         border-radius: 3px;
         color: rgba(255, 255, 255, 1);
@@ -88,7 +88,7 @@
     }
     header .menu-toggle button:hover,
     header .menu-toggle button:focus {
-        background-color: rgba(221, 72, 20, .8);
+        /*background-color: rgba(221, 72, 20, .8);*/
         color: rgba(255, 255, 255, .8);
     }
     header .heroe {
@@ -147,7 +147,7 @@
         padding-top: 0;
     }
     footer {
-        background-color: rgba(221, 72, 20, .8);
+        /*background-color: rgba(221, 72, 20, .8);*/
         text-align: center;
     }
     footer .environment {
@@ -179,15 +179,24 @@
             display: none;
         }
         header li.menu-item a {
-            background-color: rgba(221, 72, 20, .1);
+            /*background-color: rgba(221, 72, 20, .1);*/
         }
         header li.menu-item a:hover,
         header li.menu-item a:focus {
-            background-color: rgba(221, 72, 20, .7);
+            /*background-color: rgba(221, 72, 20, .7);*/
             color: rgba(255, 255, 255, .8);
         }
     }
+
+    a.MarkRyk {
+        text-decoration: none;
+        font-family: 'Teko', cursive;
+        font-size: 20px;
+        font-weight: 400;
+        color: black;
+    }
 </style>
+
 <body>
     <!-- HEADER: MENU + HEROE SECTION -->
     <header>

@@ -10,14 +10,13 @@
 
         <label for="title" class="form-label"> Title </label>
         <input type="input" class="form-control" name="title" value="<?= set_value('title') ?>">
-    
-    
         <br>
 
         <label for="body" class="form-label">Text</label>
         <textarea name="body" class="form-control" cols="45" rows="4"><?= set_value('body') ?></textarea>
         <br>
 
+        <a href="/" class="btn btn-outline-dark"> Back </a>
         <input type="submit" class="btn btn-success" name="submit" value="Create news item">    
     </form>
 </div>
